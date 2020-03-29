@@ -2,7 +2,7 @@
 
 class Shoe 
   
- attr_accessor :color, :material, :condition
+ attr_accessor :color, :material
   
   def initialize(brand)
     @brand = brand
@@ -12,4 +12,6 @@ class Shoe
     @brand
   end
   
+  def shoe_condition
+    puts ""
 end
