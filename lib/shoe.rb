@@ -14,4 +14,6 @@ class Shoe
   
   def shoe_condition
     puts "The shoe has been repaired"
+  end
+  
 end
